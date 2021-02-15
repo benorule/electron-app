@@ -1,0 +1,23 @@
+{
+    "name": "my-electron-app",
+    "version": "0.1.0",
+    "description": "My Electron app",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benorule/electron-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/benorule/electron-app/issues"
+    },
+    "homepage": "https://github.com/benorule/electron-app#readme",
+    "devDependencies": {
+        "electron": "^11.2.3"
+    }
+}
