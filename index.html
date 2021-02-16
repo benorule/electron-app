@@ -8,18 +8,14 @@
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="index">
     <div class="container">
-        <h1>Hello World!</h1>
-        <p>
-            We are using node
-            <script>document.write(process.versions.node)</script>,
-            Chrome
-            <script>document.write(process.versions.chrome)</script>,
-            and Electron
-            <script>document.write(process.versions.electron)</script>.
-        </p>
+      <ul id="titles"></ul>
+      <div id="content" contenteditable="true">
+          <p>Select a title <br />  &#x2190</p>
+      </div>
     </div>
-</body>
+    <script src="scripts/index.js"></script>
+  </body>
 
 </html>
