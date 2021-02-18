@@ -1,2 +1,2 @@
 # electron-app
-Desktop application made with electron.js framework.
+Simple text editor made with electron.js as a desktop application.

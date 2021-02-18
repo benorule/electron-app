@@ -19,5 +19,9 @@
     "homepage": "https://github.com/benorule/electron-app#readme",
     "devDependencies": {
         "electron": "^11.2.3"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
     }
 }
